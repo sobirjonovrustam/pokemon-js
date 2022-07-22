@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        li {
+            width: 26%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 20px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        li:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Pokemon</title>
+</head>
+<body style="background-color: #F9C802; font-family: 'Fredoka One', cursive;">
+    <div class="container d-flex flex-column align-items-center">
+        <img src="./image/pokemon_logo.png" alt="logo" width="500" height="200">
+        
+        <ul class="list">
+            <li>
+                <img src="http://www.serebii.net/pokemongo/pokemon/001.png" alt="Bulbasaur" width="200" height="200" style="width: 200px; height: 200px; object-fit: contain; object-position: center;">
+                
+                <p>Poison, Grass</p>
+                <p>0.71 m</p>
+                <p>6.9 kg</p>
+            </li>
+        </ul>
+    </div>
+    
+    
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
